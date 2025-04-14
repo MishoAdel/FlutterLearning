@@ -1,7 +1,7 @@
 # FlutterL earning
-This repo aims to show my progress in learning flutter
+This repo aims to show my progress in learning flutter.
 
-#Skills Learned 
+Skills Learned 
 - API
 -
 -
