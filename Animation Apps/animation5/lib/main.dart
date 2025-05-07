@@ -50,14 +50,17 @@ class _HomePageState extends State<HomePage> {
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Center(
-              child: AnimatedContainer(
-                  duration: const Duration(microseconds: 370),
-                  curve: _curve,
-                  width: _width,
-                  child: Image.asset(
-                    'assets/images/133556744614269501.jpg',
-                  )),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                AnimatedContainer(
+                    duration: const Duration(microseconds: 3000),
+                    curve: _curve,
+                    width: _width,
+                    child: Image.asset(
+                      'assets/images/133556744614269501.jpg',
+                    )),
+              ],
             ),
             TextButton(
                 onPressed: () {
